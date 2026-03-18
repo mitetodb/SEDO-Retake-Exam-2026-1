@@ -31,7 +31,7 @@ if (newQuoteButton) { // Check if button exists before adding listener
     console.log("Button found, adding listener."); // NEW LINE
     newQuoteButton.addEventListener('click', displayQuote);
 } else {
-    console.error("Button with ID 'new-quote-btn' not found.");
+    console.error("Button with ID 'new-quote-btn' not found. New quote functionality will not work."); // NEW LINE
 }
 
 // --- Initial Load ---
